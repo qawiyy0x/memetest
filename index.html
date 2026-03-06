@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIBBLE | $PIBBLE 🎀</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <div class="logo">
+                <img src="assets/pibble_logo.png" alt="Pibble Logo" class="logo-img">
+                <span class="logo-text">PIBBLE</span>
+            </div>
+            <div class="mcap-badge">
+                <span class="pulse"></span> MCAP: $37.1K
+            </div>
+        </div>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#memory">Memory</a>
+            <a href="#game">Game</a>
+            <a href="#buy">Buy</a>
+            <a href="https://x.com/pibbleonsol" target="_blank" class="social-icon">
+                <img src="assets/x_icon.svg" alt="X">
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The world's most handheld pupper. <span>$PIBBLE</span> is here to boop the Solana blockchain! 🎀</h1>
+            
+            <div class="contract-box">
+                <span class="label">TOKEN ADDRESS</span>
+                <div class="address-container">
+                    <span id="ca-text">Eppcp4FhG6wmaRno3omWwVKsZHbzucVLR316SdXopump</span>
+                    <button class="copy-btn" id="copy-btn">
+                        <img src="assets/copy_icon.svg" alt="Copy">
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#buy" class="btn btn-black">
+                    <span class="icon">🚀</span> BUY NOW
+                </a>
+                <a href="#game" class="btn btn-pink-outline">
+                    PLAY GAME
+                </a>
+            </div>
+        </div>
+        
+        <div class="hero-image-container">
+            <div class="speech-bubble">
+                <span class="heart">💌</span> Boop me!
+            </div>
+            <img src="assets/pibble_hero.png" alt="Pibble Dog" class="hero-dog" id="hero-dog">
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee-container">
+        <div class="marquee">
+            <span>🤍 PIBBLE IS A FRENCH BULLDOG PUPPY 🐾 BELLY RUBS REQUIRED 🤍 PIBBLE IS A GOOD BOY 🐾 </span>
+            <span>🤍 PIBBLE IS A FRENCH BULLDOG PUPPY 🐾 BELLY RUBS REQUIRED 🤍 PIBBLE IS A GOOD BOY 🐾 </span>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <h2>ABOUT $PIBBLE</h2>
+            <p>Pibble is just a little guy looking for some belly rubs on the Solana blockchain. No complex utility, just pure meme energy and a strong community.</p>
+        </div>
+    </section>
+
+    <!-- MEMORY GAME SECTION -->
+    <section id="memory" class="memory-section">
+        <h2>PIBBLE MATCH</h2>
+        <p>Match the cards to reveal Pibble's many moods!</p>
+        <div class="memory-game" id="memory-board">
+            <!-- Cards will be injected by JS -->
+        </div>
+        <button class="btn btn-pink" id="reset-memory">Reset Game</button>
+    </section>
+
+    <!-- SNACK CATCHER GAME -->
+    <section id="game" class="catch-section">
+        <h2>SNACK CATCHER</h2>
+        <p>Help Pibble catch falling snacks! Move with Left/Right arrows or tap sides.</p>
+        <div class="game-container">
+            <div class="score-board">Score: <span id="score">0</span></div>
+            <div class="game-area" id="game-area">
+                <div id="player" class="player-basket">
+                    <img src="assets/pibble_hero.png" alt="Pibble">
+                </div>
+                <!-- Snacks injected here -->
+            </div>
+            <button class="btn btn-pink" id="start-game">Start Catching</button>
+        </div>
+    </section>
+
+    <!-- BUY SECTION -->
+    <section id="buy" class="buy-section">
+        <h2>HOW TO BUY</h2>
+        <div class="buy-steps">
+            <div class="step">
+                <div class="step-num">1</div>
+                <h3>Get a Wallet</h3>
+                <p>Download Phantom or Solflare extension/app.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">2</div>
+                <h3>Get some SOL</h3>
+                <p>Buy SOL on an exchange and send it to your wallet.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">3</div>
+                <h3>Go to Raydium / Pump.fun</h3>
+                <p>Connect your wallet and paste the $PIBBLE token address.</p>
+            </div>
+            <div class="step">
+                <div class="step-num">4</div>
+                <h3>Swap</h3>
+                <p>Swap your SOL for $PIBBLE. Welcome to the pack!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <h3>$PIBBLE</h3>
+                <p>© 2024 Pibble on Solana. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://x.com/pibbleonsol" target="_blank">Twitter</a>
+                <a href="#">Telegram</a>
+                <a href="#">Chart</a>
+            </div>
+        </div>
+        <div class="disclaimer">
+            <p>Disclaimer: $PIBBLE is a meme coin with no intrinsic value or expectation of financial return. There is no formal team or roadmap. The coin is completely useless and for entertainment purposes only.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
